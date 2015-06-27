@@ -112,8 +112,8 @@
 					  </div>
 					  <div class="form-group has-feedback">
 					    <label for="usuario" class=" control-label">Fecha de Nacimiento</label>				    
-					    <input type="text" class="form-control " id="fechanac" name="fecha_nac" placeholder="Fecha de Nacimiento"  >			    
-					  </div>
+					    <input type="text" class="form-control " readonly="readonly" id="fechanac" name="fecha_nac" placeholder="Fecha de Nacimiento"  >			    
+					  </div> 
 						<div class="form-group has-feedback">
 					    <label for="usuario" class=" control-label">NIT</label>				    
 					    <input type="text" class="form-control " id="nit" name="NIT" placeholder="NIT"  maxlength="17">			    
