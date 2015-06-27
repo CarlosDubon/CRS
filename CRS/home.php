@@ -121,7 +121,8 @@
 			    		<?php if ($noexiste) {
 			    			
 			    		?>
-			    		<div class="alert alert-danger">
+			    		<div class="alert alert-dismissible alert-danger">
+                            <button type="button" class="close" data-dismiss="alert">×</button>
 					     <strong>¡Alerta!</strong>  El usuario o contraseña están incorrectas.
 					    </div>
 
