@@ -57,7 +57,7 @@
 						<br>
                           <div>
 						<input type="text" name='usuario' value=<?="'".$_REQUEST['usuario']."'" ?>  hidden>
-						<input id="toptop" type="submit" onclick="return confirm('¿Está seguro?');">
+						<input class="btn btn-success" id="toptop" type="submit" onclick="return confirm('¿Está seguro?');">
 						</div>
 					    
 					</form>
