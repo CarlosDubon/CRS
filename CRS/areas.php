@@ -21,6 +21,8 @@
 			   			</p>
 			   			<p>
 			   				<a href="agregarCarrito.php?espacio=1" class="btn btn-warning">Ver Horarios</a>
+                        </p>
+                        <p>
 			   				<a href="infcanchas.php" class="btn  btn-default">Descripción</a>
 
 			   			</p>
@@ -39,6 +41,8 @@
 			   			</p>
 			   			<p>
 			   				<a href="agregarCarrito.php?espacio=2" class="btn btn-warning">Ver Horarios</a>
+                        </p>
+                        <p>
 			   				<a href="infteatro.php" class="btn  btn-default">Descripción</a>
 			   			</p>
 			   		</div>
@@ -55,6 +59,7 @@
                         <br/>
 			   			<p>
 			   				<a href="agregarCarrito.php?espacio=3" class="btn btn-warning">Ver Horarios</a>
+                        </p>
 			   				<a href="infpiscina.php" class="btn  btn-default">Descripción</a>
 			   			</p>
 			   		</div>
@@ -71,6 +76,8 @@
                         <br/>
 			   			<p>
 			   				<a href="agregarCarrito.php?espacio=4" class="btn btn-warning">Ver Horarios</a>
+                        <p>
+                        </p>
 			   				<a href="infiglesia.php" class="btn  btn-default">Descripción</a>
 			   			</p>
 			   		</div>

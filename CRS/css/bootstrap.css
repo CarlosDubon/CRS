@@ -761,6 +761,7 @@
 html {
   font-size: 10px;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    margin-top: -8px;
 }
 body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -2804,8 +2805,8 @@ fieldset[disabled] .btn-default.active {
 }
 .btn-primary {
   color: #ffffff;
-  background-color: #008cba;
-  border-color: #0079a1;
+  background-color: #2C3E50;
+  border-color: #2C3E50;
 }
 .btn-primary:focus,
 .btn-primary.focus {
@@ -3897,6 +3898,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   min-height: 45px;
   margin-bottom: 21px;
   border: 1px solid transparent;
+    height: 50px;
 }
 @media (min-width: 768px) {
   .navbar {

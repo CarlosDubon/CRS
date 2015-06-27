@@ -70,7 +70,7 @@
 					echo "Saldo Anterior: $saldo<BR/>Total: $total <BR/>Saldo Restante:$restante<BR/>
 					<form action='reservar.php' method='post'>
 						<input type='hidden' name='reservar' value='true' /> 
-						<input type='submit' $desactivado />
+						<input class='btn btn-info' type='submit' $desactivado />
 					</form>";
 					$tabla=$carrito->tabla();
 				 	echo $tabla;

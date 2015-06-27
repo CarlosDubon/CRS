@@ -50,7 +50,7 @@
 					<h3 class="panel-title"><b><i class="fa fa-users"></i> Mostrar Usuarios</b></h3>
 			</div>
 			  <div class="panel-body">
-			  	<table class="table table-hover">
+			  	<table class="table table-striped table-hover ">
 			  			<thead>
 							<tr>
 								<th><i class="fa fa-user"></i> Usuario</th>
@@ -98,9 +98,9 @@
 					            			<tr>
 												<td><?=$row ["usuario"]?></td><td><?=$row ["tipo"]==1?"Administrador":"Cliente"?></td>
 												<td><?=$row ["correo"]?></td>
-												<td><a <?="href='modificarUsuario.php?usuario=".$row ["usuario"]."'"?>>Modificar</a></td>
-												<td><a <?="href='mostrarUsuario.php?usuario=".$row ["usuario"]."'"?> onclick="return confirm('¿Está seguro?');">Eliminar</a></td>
-												<td><a <?="href='agregarsaldo.php?usuario=".$row ["usuario"]."'"?>>Agregar</a></td>
+												<td><a class="btn btn-info" <?="href='modificarUsuario.php?usuario=".$row ["usuario"]."'"?>><i class="fa fa-pencil"></i></a></td>
+												<td><a class="btn btn-danger" <?="href='mostrarUsuario.php?usuario=".$row ["usuario"]."'"?> onclick="return confirm('¿Está seguro?');"><i class="fa fa-user-times"></i></a></td>
+												<td><a class="btn btn-success" <?="href='agregarsaldo.php?usuario=".$row ["usuario"]."'"?>><i class="fa fa-credit-card"></i></a></td>
 											</tr>
 					        <?php
                             }

@@ -234,7 +234,8 @@
 			
 		
 			
-		
+		   <a id="btnreg" href="areas.php" class="btn btn-warning">Regresar</a>
+
 		</div>
 		<footer>
 		<link rel="stylesheet" type="text/css" href="js/datetimepicker.css"/ >
@@ -252,7 +253,6 @@
 		</script>
 
 		</footer>
-        <a id="btnreg" href="areas.php" class="btn btn-warning">Regresar</a>
 	</body>
 	</html>
 	<?php 
