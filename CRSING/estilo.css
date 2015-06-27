@@ -1,0 +1,58 @@
+body{
+	background-color: yellow;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    color: #1d1d1d;
+    cursor: pointer;
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+}
+nav ul li:hover {
+   border-radius: 5px;
+    color: #e44e2d;
+    text-shadow: 0px 0px 30px rgba(10, 170, 98, 1);
+    
+
+ -webkit-animation: cssAnimation 1.1681s 12 linear;
+-moz-animation: cssAnimation 1.1681s 12 linear;
+-o-animation: cssAnimation 1.1681s 12 linear;
+
+
+    
+    padding: 5px;
+}
+ @-webkit-keyframes cssAnimation {
+from { -webkit-transform: rotate(4deg) scale(1) skew(1deg) translate(10px); }
+to { -webkit-transform: rotate(0deg) scale(1.045) skew(-7deg) translate(18px); }
+     
+}
+@-moz-keyframes cssAnimation {
+from { -moz-transform: rotate(4deg) scale(1) skew(1deg) translate(10px); }
+to { -moz-transform: rotate(0deg) scale(1.045) skew(-7deg) translate(18px); }
+}
+@-o-keyframes cssAnimation {
+from { -o-transform: rotate(4deg) scale(1) skew(1deg) translate(10px); }
+to { -o-transform: rotate(0deg) scale(1.045) skew(-7deg) translate(18px); }
+}
+
+header {
+	 background-image: url(img/images.jpg);
+height: 100px;
+width: auto;
+color: white;
+text-align: center;
+padding-top: 20px;
+	}	
+
+footer{
+	background-image: url(img/images.jpg);
+height: 100px;
+width: auto;
+color: white;
+text-align: center;
+padding-top: 20px;
+	}	
