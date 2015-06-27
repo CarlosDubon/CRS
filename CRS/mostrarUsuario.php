@@ -47,18 +47,18 @@
 	<div class="container-fluid col-md-6 col-md-offset-3">
 		<div class="panel panel-default">
 			<div class="panel-heading">
-					<h3 class="panel-title"><b><span class="glyphicon glyphicon-list-alt"></span> Mostrar Usuarios</b></h3>
+					<h3 class="panel-title"><b><i class="fa fa-users"></i> Mostrar Usuarios</b></h3>
 			</div>
 			  <div class="panel-body">
 			  	<table class="table table-hover">
 			  			<thead>
 							<tr>
-								<th><span class="glyphicon glyphicon-user"></span> Usuario</th>
-								<th><span class="glyphicon glyphicon-question-sign"></span> Tipo</th> 
-								<th><span class="glyphicon glyphicon-envelope"></span> Correo</th>
-								<th><span class="glyphicon glyphicon-refresh"></span> Modificar</th>
-								<th><span class="glyphicon glyphicon-trash"></span> Eliminar</th>
-								<th><span class="glyphicon glyphicon-usd"></span> Saldo</th>
+								<th><i class="fa fa-user"></i> Usuario</th>
+								<th><i class="fa fa-user-md"></i> Tipo</th> 
+								<th><i class="fa fa-at"></i> Correo</th>
+								<th><i class="fa fa-pencil"></i> Modificar</th>
+								<th><i class="fa fa-user-times"></i> Eliminar</th>
+								<th><i class="fa fa-credit-card"></i> Saldo</th>
 							</tr>
 						</thead>
 						<tbody>

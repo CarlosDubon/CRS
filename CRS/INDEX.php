@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 	session_start();
 ?>
 <!doctype html>
@@ -56,6 +56,7 @@
 	</div>
 	<div class="panel panel-default">
 		<div class="panel-body">
+            
 		  <FONT  SIZE=5 COLOR=black>
 			<h1><center>CSSC Reservation System</center></h1>
 			<p>

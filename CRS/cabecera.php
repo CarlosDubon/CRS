@@ -23,7 +23,7 @@
                         <li>
                         <a href="areas.php" ><i class="fa fa-picture-o"></i> ESPACIOS</a>
                         </li>
-                        <li><a href="repusuario.php"><span class="glyphicon glyphicon-pencil"></span> REPORTES</a></li>
+                        <li><a href="repusuario.php"><i class="fa fa-pencil-square-o"></i></span> REPORTES</a></li>
 
                         
                         
