@@ -8,7 +8,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="INDEX.php"><img src="img/crs.ico" width='20 px' alt="">CSSC RESERVATION SYSTEM</a>
+                    <a class="navbar-brand" href="INDEX.php">CSSC RESERVATION SYSTEM</a>
 
                 </div>
             
@@ -36,17 +36,17 @@
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> USUARIO<b class="caret"></b></a>
                             <ul class="dropdown-menu">
                                 <li><a href="nuevoUsuario.php"><i class="fa fa-user-plus"></i> NUEVO USUARIO</a></li>
-                                <li><a href="mostrarUsuario.php"><span class="glyphicon glyphicon-list-alt"></span> MOSTRAR USUARIOS</a></li>
+                                <li><a href="mostrarUsuario.php"><i class="fa fa-users"></i> MOSTRAR USUARIOS</a></li>
                                 
                             </ul>
                         </li>                       
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-picture "></span> ESPACIOS<b class="caret"></b></a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-picture-o"></i> ESPACIOS<b class="caret"></b></a>
                             <ul class="dropdown-menu">
-                                <li><a href="areas.php"><span class="glyphicon glyphicon-calendar"></span> ESPACIOS Y HORARIOS</a></li>
-                                <li><a href="inshorario.php"><span class="glyphicon glyphicon-plus"></span> AGREGAR NUEVO HORARIO</a></li>
+                                <li><a href="areas.php"><i class="fa fa-calendar"></i> ESPACIOS Y HORARIOS</a></li>
+                                <li><a href="inshorario.php"><i class="fa fa-clock-o"></i> AGREGAR NUEVO HORARIO</a></li>
                                 <!--<li><a href=#><span class="glyphicon glyphicon-plus-sign"></span> AGREGAR NUEVO ESPACIO</a></li>-->
-                                <li><a href="repa.php"><span class="glyphicon glyphicon-pencil"></span> REPORTES</a></li>
+                                <li><a href="repa.php"><i class="fa fa-pencil-square-o"></i> REPORTES</a></li>
                                 
                             </ul>
                         </li>
@@ -59,15 +59,15 @@
                     <?php }
                     ?>
                     <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-flag"></span> IDIOMA<b class="caret"></b></a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-language"></i> IDIOMA<b class="caret"></b></a>
                             <ul class="dropdown-menu">
-                                <li><a href="../CRSING"><img src ="img/USA.png" width="30" height="25"> ENGLISH</a></li>
+                                <li><a href="../CRSING"><i class="fa fa-flag-o"></i> ENGLISH</a></li>
                                 
                             </ul>
                         </li> 
                         <li>
                           
-                         <a target=\"_blank\" href="csscres.pdf" title="AYUDA"><span class="glyphicon glyphicon-question-sign"></span> AYUDA</a>
+                         <a target=\"_blank\" href="csscres.pdf" title="AYUDA"><i class="fa fa-question"></i> AYUDA</a>
                         </li>
                          
                        
@@ -81,14 +81,15 @@
                     
                     
                     <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-pushpin"></span> CUENTA <b class="caret"></b></a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-cog"></i> CUENTA <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
-                                <li><a href="camcontra.php"><span class="glyphicon glyphicon-cog"></span> CAMBIAR CONTRASEÑA</a></li>
+                                <li><a href="camcontra.php"><i class="fa fa-refresh"></i> CAMBIAR CONTRASEÑA</a></li>
+                                <li><a href="cerrar.php" class="dropdown-toggle"><i class="fa fa-power-off"></i> CERRAR SESIÓN</a></li>  
                             </ul>
                         </li>
                        
                     </ul> 
-                    <p class="navbar-text navbar-right"><span class="glyphicon glyphicon-user"></span> USUARIO: <a href="home.php" class="navbar-link"> <?php echo $_SESSION['usuario'] ?> </a> , <a href="cerrar.php" class="dropdown-toggle"><span class="glyphicon glyphicon-off" ></span> CERRAR SESIÓN</a></li>  </p> 
+                    <p class="navbar-text navbar-right"><span class="glyphicon glyphicon-user"></span> USUARIO: <a href="home.php" class="navbar-link"> <?php echo $_SESSION['usuario'] ?> </a></p> 
 
                     <?php
 
