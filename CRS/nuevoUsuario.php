@@ -123,7 +123,7 @@
 					    <input type="text" class="form-control" disabled="" id="fechamem" name="fecha_mem" placeholder="Fecha de Membresía"  >
 					  </div>
 					</div>
-					  <button type="submit" class="btn btn-default">Crear</button>
+					  <input type="submit" id="enviar" class="btn btn-default" value='Crear'>
 					  
 					</form>
 					  </div>
@@ -211,7 +211,7 @@ $(document).ready(function(){
 			$("#contval").addClass("glyphicon-remove-circle");
 			$("#contval").text("Contraseñas no Coinciden");
 			$("#contval").removeClass(" glyphicon-ok-circle");
-			
+			boton();
 			
 		}else if(Password1 == "" || Password2== ""){
 			
@@ -224,7 +224,7 @@ $(document).ready(function(){
 			$("#contval").text("Contraseñas coinciden");
 			$("#contval").removeClass("  glyphicon-remove-circle");
 			$("#contval").addClass(" glyphicon-ok-circle");
-			
+			boton();
 		}
 
 	});
@@ -243,11 +243,14 @@ $(document).ready(function(){
 	                	if (response=="si") {
 	                		$("#resusu").parent().addClass("has-error");
 	                		$("#resusu").parent().removeClass("has-success");
-	                		$("#resusu").html("<span class='glyphicon glyphicon-remove  form-control-feedback'></span>");
+                            $("#resusu").html("El usuario existe. Elija otro");
+                            boton();
+                            
 	                	}else{
 	                		$("#resusu").parent().addClass("has-success");
 	                		$("#resusu").parent().removeClass("has-error");
-	                		$("#resusu").html("<span class='glyphicon glyphicon-ok form-control-feedback'></span>");
+	                		$("#resusu").html("El usuario no existe.");
+                            boton();
 	                	}
 	                        
 	                }
@@ -258,6 +261,28 @@ $(document).ready(function(){
 	        $("#resusu").html("");
 	    }
 	});
+    
+    	function boton() {
+    
+      activo=true;
+      if ($("#resusu").parent().hasClass("has-error")) {
+
+      	activo=false;
+      }
+      if ($("#contval").parent().hasClass("has-error")) {
+
+      	activo=false;
+      }
+
+      if (activo) {
+      	$("#enviar").removeAttr('disabled'); 
+      }else{
+      	$("#enviar").attr('disabled','disabled');
+
+      }
+         
+	}
+    
 });
 	
 	</script>
@@ -283,12 +308,16 @@ $( "select" ).change(function () {
 
 <link rel="stylesheet" type="text/css" href="js/datetimepicker.css"/ >
 		
-		<script type="text/javascript" src="js/datetimepicker.js"></script>
+	<script type="text/javascript" src="js/jquery.maskedinput.js"></script>	
+    <script type="text/javascript" src="js/datetimepicker.js"></script>
 		<script type="text/javascript">
 		 //$(document).ready(function() {
 			//$('#hinicio').clockpicker();
 			$('#fechanac').datetimepicker({value:'1996-12-31' ,lang:'es',maxDate:'1996/12/31',format:'Y-m-d',timepicker:false, mask:true});
-            $('#fechamem').datetimepicker({value: hoy() , minDate:0,lang:'es',format:'Y-m-d',timepicker:false, mask:true});
+            $('#fechamem').datetimepicker({value: hoy(), minDate:0,lang:'es',format:'Y-m-d',timepicker:false, mask:true});
+            $("#dui").mask("99999999-9");
+            $("#tel").mask("9999-9999");
+            $("#nit").mask("9999-999999-999-9");
             
             function hoy(){
 				var today = new Date();
