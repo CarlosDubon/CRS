@@ -120,7 +120,7 @@
 					  </div>
 					  <div class="form-group has-feedback">
 					    <label for="usuario" class=" control-label">Fecha de Membresía</label>				    
-					    <input type="text" class="form-control " id="fechamem" name="fecha_mem" placeholder="Fecha de Membresía"  >
+					    <input type="text" class="form-control" disabled="" id="fechamem" name="fecha_mem" placeholder="Fecha de Membresía"  >
 					  </div>
 					</div>
 					  <button type="submit" class="btn btn-default">Crear</button>
