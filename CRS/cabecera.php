@@ -8,7 +8,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="INDEX.php">CSSC RESERVATION SYSTEM</a>
+                    <a class="navbar-brand" href="INDEX.php"><b>CSSC RESERVATION SYSTEM</b></a>
 
                 </div>
             
