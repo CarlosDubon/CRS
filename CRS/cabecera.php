@@ -21,7 +21,7 @@
                         { 
                         ?>
                         <li>
-                        <a href="areas.php" ><span class="glyphicon glyphicon-picture"></span> ESPACIOS</a>
+                        <a href="areas.php" ><i class="fa fa-picture-o"></i> ESPACIOS</a>
                         </li>
                         <li><a href="repusuario.php"><span class="glyphicon glyphicon-pencil"></span> REPORTES</a></li>
 
@@ -33,9 +33,9 @@
                         if($_SESSION['tipo']==1) {   
                         ?> 
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> USUARIO<b class="caret"></b></a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> USUARIO<b class="caret"></b></a>
                             <ul class="dropdown-menu">
-                                <li><a href="nuevoUsuario.php"><span class="glyphicon glyphicon-plus-sign"></span> NUEVO USUARIO</a></li>
+                                <li><a href="nuevoUsuario.php"><i class="fa fa-user-plus"></i> NUEVO USUARIO</a></li>
                                 <li><a href="mostrarUsuario.php"><span class="glyphicon glyphicon-list-alt"></span> MOSTRAR USUARIOS</a></li>
                                 
                             </ul>
