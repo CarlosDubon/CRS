@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/bootstrap.css">
         <link  rel="stylesheet" href="css/bootstrap-theme.css">
+        <link rel="stylesheet" href="css/FA/css/font-awesome.min.css">
         <link rel="stylesheet" href="css/estilo.css">
         <script src="js/jquery-1.11.0.js"></script>
             <script src="js/bootstrap.js"></script>
